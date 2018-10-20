@@ -6,15 +6,17 @@ public class Main {
     public static void main(String[] args)
     {
         MyQueue<Integer> A = new MyQueue<>();
-        int B[] = {1, 2, 3, 4,6 ,6 ,6 , 7};
-        for (int i = 0; i<=7; i++)
-        {
-            A.add(B[i], true);
+        int B[] = {1, 2};
+
+        for (int aB : B) {
+            A.add(aB, false);
         }
-        for (int i = 0; i<=8; i++)
+
+        for (int i = 0; i < B.length; i++)
+
         {
             try {
-                System.out.println(A.poll(false));
+                System.out.println(A.poll(true));
             }
             catch (Exception e) {
                 e.printStackTrace();

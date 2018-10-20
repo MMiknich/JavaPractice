@@ -7,17 +7,17 @@ public class MyQueue<E> implements Queue_interface<E> {
 
     public boolean add(E a,boolean first)
     {
-        if(first || firstst.isEmpty() != true) {
+        if(!first || firstst.isEmpty()) {
             this.firstst.push(a);
             return true;
         }
         else{
-            while (this.firstst.isEmpty() != true)
+            while (!this.firstst.isEmpty())
             {
                 this.secondst.push(this.firstst.pop());
             }
             firstst.push(a);
-            while (this.secondst.isEmpty() != true)
+            while (!this.secondst.isEmpty())
             {
                 this.firstst.push(this.secondst.pop());
             }
@@ -26,13 +26,13 @@ public class MyQueue<E> implements Queue_interface<E> {
     }
 
     public E poll(boolean first) throws Exception {
-        if(firstst.isEmpty() != true) {
+        if(!firstst.isEmpty()) {
             if (first) {
-                while (this.firstst.isEmpty() != true) {
+                while (!this.firstst.isEmpty()) {
                     this.secondst.push(this.firstst.pop());
                 }
                 E ret = this.secondst.pop();
-                while (this.secondst.isEmpty() != true) {
+                while (!this.secondst.isEmpty()) {
                     this.firstst.push(this.secondst.pop());
                 }
                 return ret;
@@ -42,8 +42,7 @@ public class MyQueue<E> implements Queue_interface<E> {
             }
         }
         else {
-            Exception e = new java.util.EmptyStackException();
-            throw e;
+            throw  new java.util.EmptyStackException();
         }
     }
 }
