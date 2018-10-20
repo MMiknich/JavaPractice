@@ -8,18 +8,19 @@ public class MyQueue<E> implements Queue_interface<E> {
     public boolean add(E a)
     {
         this.first.push(a);
-        return true;
+        if (first.firstElement() == a)
+            return true;
+        else return false;
     }
 
     public E poll() throws Exception {
-        //      throw Instant;
-        if(first.isEmpty() != true) {
-            while (this.first.isEmpty() != true)
+        if(!first.isEmpty()) {
+            while (!this.first.isEmpty())
             {
                 this.second.push(this.first.pop());
             }
             E ret = this.second.pop();
-            while (this.second.isEmpty() != true)
+            while (!this.second.isEmpty())
             {
                 this.first.push(this.second.pop());
             }
