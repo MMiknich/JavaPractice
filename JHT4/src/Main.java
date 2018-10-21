@@ -1,40 +1,22 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
+import java.util.List;
 
 public class Main {
 
-    public static void FromTheEnd(Iterator<String> input)
+    public static void fromTheEnd(Iterator<Integer> input)
     {
         if(input.hasNext()) {
-            String output = input.next();
-            FromTheEnd(input);
+            Integer output = input.next();
+            fromTheEnd(input);
             System.out.println(output);
         }
     }
     public static void main(String[] args) {
-        ArrayList <String> spisok = new ArrayList<>();
-            spisok.add("1");
-            spisok.add("2");
-            spisok.add("3");
-            spisok.add("4");
-            spisok.add("5");
-            spisok.add("6");
-            spisok.add("7");
-            spisok.add("8");
-            spisok.add("9");
-            spisok.add("10");
-            spisok.add("11");
-            spisok.add("12");
-            spisok.add("13");
-            spisok.add("14");
-            spisok.add("15");
-            spisok.add("16");
-            spisok.add("17");
-            spisok.add("18");
-            spisok.add("19");
-            spisok.add("20");
-
-        Iterator<String> forRecusion = spisok.iterator();
-        FromTheEnd(forRecusion);
+        Integer arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+        List spisok = new ArrayList(Arrays.asList(arr));
+        fromTheEnd(spisok.iterator());
+        //System.out.print(spisok.iterator().next().getClass().toString());
     }
 }
