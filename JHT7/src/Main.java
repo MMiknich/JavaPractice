@@ -1,7 +1,8 @@
 import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.LinkedTransferQueue;
 import java.util.stream.Collectors;
@@ -12,6 +13,9 @@ import static java.lang.Thread.sleep;
 public class Main {
 
     public static void main(String[] args) {
+        int MAXOUTLEN = 5;
+        int MINOUTLEN = 3;
+        String fileName = "tmp.csv";
         ArrayList<String> input = new ArrayList<>();
         input.add("1");
         input.add("22");
@@ -31,22 +35,21 @@ public class Main {
         input.add("dju");
         input.add("dju");
 
-        try(FileWriter writer = new FileWriter(".csv",false)) {
-            for (int j = 3; j <=5;j++) {
-                final int k = j;
-                if (input.stream().filter(s -> s.length() == k).count() > 0) {
-                    String output = new String("");
-                    output += new Integer(j).toString();
-                    List<String> out =
-                            input.stream()
-                                    .filter(a -> a.length() == k)
-                                    .collect(Collectors.toList());
-                    for (int i = 0; i < out.size(); i++)
-                        output += (" | " + out.get(i));
-                    output += "\n";
-                    writer.write(output);
-                }
-            }
+        try(FileWriter writer = new FileWriter(fileName,false)) {
+            String outStr[] = new String[MAXOUTLEN + 1];
+            for (Integer i = MINOUTLEN; i <= MAXOUTLEN; i++)
+                outStr[i] =  i.toString();
+
+            input.stream()
+                    .filter(s-> s.length() <= MAXOUTLEN && s.length() >= MINOUTLEN)
+                    .forEach(s-> outStr[s.length()] += (" | " + s));
+
+            Arrays.stream(outStr)
+                    .forEach(s-> {
+                        try {if (s != null)
+                                writer.write(s + "\n");}
+                        catch (IOException e) {e.printStackTrace();}
+                    });
 
         }
         catch (IOException ex){System.out.println(ex.getMessage());};
