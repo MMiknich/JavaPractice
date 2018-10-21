@@ -1,29 +1,40 @@
-import org.jetbrains.annotations.Contract;
+
+import java.util.ArrayList;
 
 public class Student {
-    private String Firstname = "";
-    private String Lastname = "";
-    private int Age = 0;
-    private String Department = "";
+    private String firstName = "";
+    private String lastName = "";
+    private int age = 0;
+    private String department = "";
 
-    public Student(String fN, String lN, int age, String dep)
+    public Student(String firstName, String lastName, int age, String department)
     {
-        this.Age = age;
-        this.Department = dep;
-        this.Firstname = fN;
-        this.Lastname = lN;
+        this.age = age;
+        this.department = department;
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
     public String getFirstname(){
-        return this.Firstname;
+        return this.firstName;
     }
     public String getLastname(){
-        return this.Lastname;
+        return this.lastName;
     }
     public int getAge(){
-        return this.Age;
+        return this.age;
     }
     public String getDepartment(){
-        return this.Department;
+        return this.department;
+    }
+    public int departmentCompairing(Student st2, ArrayList<Student> arrayList) {
+        long Dp1 =  arrayList.stream().filter(student -> student.getDepartment().equals(this.getDepartment())).count();
+        long Dp2 = arrayList.stream().filter(student -> student.getDepartment().equals(st2.getDepartment())).count();
+        if (Dp1 == Dp2)
+            return 0;
+        else if(Dp1 > Dp2)
+            return -1;
+        else
+            return 1;
     }
     public boolean equals (Object a) {
         if(a.getClass() == this.getClass()){
