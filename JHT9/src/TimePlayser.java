@@ -1,9 +1,11 @@
+import java.time.LocalTime;
+
 public class TimePlayser extends Thread{
-    static private long startTime;
+    private LocalTime startTime;
 
     TimePlayser(long startTime)
     {
-        this.startTime = startTime;
+        this.startTime = LocalTime.now();
         this.start();
     }
     public void run()
@@ -11,7 +13,7 @@ public class TimePlayser extends Thread{
         try {
             while (true) {
                 Thread.sleep(2000);
-                System.out.println(System.currentTimeMillis() - startTime);
+                System.out.println(LocalTime.from(startTime));
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
