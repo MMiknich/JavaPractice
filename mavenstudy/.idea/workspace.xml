@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94d0a1fb-258c-4458-ad65-ea01ef8cef2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mipt/student/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenstudy-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-mipt.student.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/mipt.student.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mipt/student/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mipt/student/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MailEncriptor/src/main/java/student/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/MailEncriptor/src/main/java/student/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MailEncriptor/src/main/java/student/Decriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MailEncriptor/src/main/java/student/Decriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MailEncriptor/src/main/java/student/Encriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MailEncriptor/src/main/java/student/Encriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MailEncriptor/src/main/java/student/temp.cvs" beforeDir="false" afterPath="$PROJECT_DIR$/MailEncriptor/src/main/java/student/temp.cvs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MailEncriptor/target/classes/student/Decriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/MailEncriptor/target/classes/student/Decriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MailEncriptor/target/classes/student/Encriptor.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/MailEncriptor/target/" />
@@ -88,27 +81,30 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Main" value="15" />
-          <entry key="cvs" value="151" />
-          <entry key="java" value="2073" />
+          <entry key="cvs" value="274" />
+          <entry key="java" value="4284" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="15" />
-          <entry key="JAVA" value="2073" />
-          <entry key="PLAIN_TEXT" value="151" />
+          <entry key="JAVA" value="4284" />
+          <entry key="PLAIN_TEXT" value="274" />
           <entry key="XML" value="60" />
         </counts>
       </usages-collector>
@@ -116,10 +112,10 @@
         <counts>
           <entry key="Cipher" value="1" />
           <entry key="Main" value="1" />
-          <entry key="class" value="3" />
-          <entry key="cvs" value="2" />
+          <entry key="class" value="4" />
+          <entry key="cvs" value="3" />
           <entry key="directory" value="1" />
-          <entry key="java" value="17" />
+          <entry key="java" value="18" />
           <entry key="student" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -127,9 +123,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ActionScript" value="1" />
-          <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="17" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="18" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="UML" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -141,17 +137,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="741">
+              <caret line="106" column="53" selection-start-line="106" selection-start-column="53" selection-end-line="106" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/Encriptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+              <folding>
+                <element signature="method#Encriptor#0;class#Encriptor#0" />
+                <element signature="method#Encriptor#1;class#Encriptor#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/Encriptor.java">
+        <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/Decriptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="907">
+              <caret line="92" column="79" selection-start-line="92" selection-start-column="79" selection-end-line="92" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#Decriptor#0;class#Decriptor#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/temp.cvs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -167,6 +192,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/Decriptor.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -185,9 +213,11 @@
         <option value="$PROJECT_DIR$/MailEncriptor/pom.xml" />
         <option value="$PROJECT_DIR$/Censor/src/main/java/mipt/student/Encriptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/mipt/student/App.java" />
-        <option value="$PROJECT_DIR$/MailEncriptor/src/main/java/student/Decriptor.java" />
-        <option value="$PROJECT_DIR$/MailEncriptor/src/main/java/student/Encriptor.java" />
         <option value="$PROJECT_DIR$/Censor/src/main/java/mipt/student/App.java" />
+        <option value="$PROJECT_DIR$/MailEncriptor/src/main/java/student/App.java" />
+        <option value="$PROJECT_DIR$/MailEncriptor/src/main/java/student/temp.cvs" />
+        <option value="$PROJECT_DIR$/MailEncriptor/src/main/java/student/Encriptor.java" />
+        <option value="$PROJECT_DIR$/MailEncriptor/src/main/java/student/Decriptor.java" />
       </list>
     </option>
   </component>
@@ -226,10 +256,24 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="637" />
-    <option name="y" value="336" />
-    <option name="width" value="2550" />
-    <option name="height" value="1471" />
+    <option name="x" value="169" />
+    <option name="y" value="593" />
+    <option name="width" value="2540" />
+    <option name="height" value="1502" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -239,7 +283,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -283,16 +326,23 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="student" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mavenstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="MailEncriptor" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541002280993" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541369918538" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -302,12 +352,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MailEncriptor/src/main/java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MailEncriptor/src/main/java" />
       <recent name="$PROJECT_DIR$/Censor" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/MailEncriptor/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,16 +428,29 @@
       <workItem from="1540979636823" duration="2706000" />
       <workItem from="1540983721500" duration="1383000" />
       <workItem from="1541001522663" duration="1127000" />
+      <workItem from="1541012182304" duration="739000" />
+      <workItem from="1541017529592" duration="433000" />
+      <workItem from="1541343661983" duration="13715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34018000" />
+    <option name="totallyTimeSpent" value="48905000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="3840" height="2160" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26627535" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14994664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -397,16 +460,16 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973318" weight="0.37789473" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49866596" weight="0.37789473" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.72171825" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49973318" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002668" side_tool="true" weight="0.43421054" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49973318" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013341" side_tool="true" weight="0.37789473" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4994664" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -418,7 +481,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32977587" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26307365" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14994664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -428,16 +491,16 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49973318" visible="true" weight="0.29947367" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49866596" visible="true" weight="0.37789473" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.72171825" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49973318" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002668" side_tool="true" weight="0.43421054" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49973318" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013341" side_tool="true" weight="0.37789473" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4994664" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -454,18 +517,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/Encriptor.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -547,13 +598,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Censor/src/main/java/mipt/student/Encriptor.java" />
-    <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/temp.cvs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MailEncriptor/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -565,16 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/Decriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,17 +633,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/jce.jar!/javax/crypto/Cipher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="825" column="24" selection-start-line="825" selection-start-column="24" selection-end-line="825" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="741">
+          <caret line="106" column="53" selection-start-line="106" selection-start-column="53" selection-end-line="106" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/temp.cvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/Encriptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="548">
+          <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+          <folding>
+            <element signature="method#Encriptor#0;class#Encriptor#0" />
+            <element signature="method#Encriptor#1;class#Encriptor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MailEncriptor/src/main/java/student/Decriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="92" column="79" selection-start-line="92" selection-start-column="79" selection-end-line="92" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#Decriptor#0;class#Decriptor#0" />
+          </folding>
         </state>
       </provider>
     </entry>
