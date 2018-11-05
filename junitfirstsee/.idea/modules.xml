@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NegativeTest/NegativeTest.iml" filepath="$PROJECT_DIR$/NegativeTest/NegativeTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PositiveTest/PositiveTest.iml" filepath="$PROJECT_DIR$/PositiveTest/PositiveTest.iml" />
+    </modules>
+  </component>
+</project>
